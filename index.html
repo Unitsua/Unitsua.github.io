@@ -152,20 +152,20 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-队列详解" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-队列详解及java实现-1" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="2020/06/23/队列详解/">队列详解</a>
+      <a class="article-title" href="2020/06/23/队列详解及java实现-1/">队列详解及java实现</a>
     </h1>
   
 
         
-        <a href="2020/06/23/队列详解/" class="archive-article-date">
-  	<time datetime="2020-06-23T14:21:38.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-06-23</time>
+        <a href="2020/06/23/队列详解及java实现-1/" class="archive-article-date">
+  	<time datetime="2020-06-23T14:37:52.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-06-23</time>
 </a>
         
       </header>
@@ -184,7 +184,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="2020/06/23/队列详解/">展开全文 >></a>
+          <a class="article-more-a" href="2020/06/23/队列详解及java实现-1/">展开全文 >></a>
         </p>
       
 
@@ -234,14 +234,10 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>队列详解及java实现</p>
-<blockquote>
-<p><strong>目录</strong></p>
-<p><a href="https://www.cnblogs.com/fzz9/p/8159679.html#导读" target="_blank" rel="noopener">  导读</a><br><a href="https://www.cnblogs.com/fzz9/p/8159679.html#目录" target="_blank" rel="noopener">  目录</a><br><a href="https://www.cnblogs.com/fzz9/p/8159679.html#概念" target="_blank" rel="noopener">  概念</a><br><a href="https://www.cnblogs.com/fzz9/p/8159679.html#特点" target="_blank" rel="noopener">  特点</a><br><a href="https://www.cnblogs.com/fzz9/p/8159679.html#存储结构" target="_blank" rel="noopener">  存储结构</a><br><a href="https://www.cnblogs.com/fzz9/p/8159679.html#java实现" target="_blank" rel="noopener">  java实现</a><br><a href="https://www.cnblogs.com/fzz9/p/8159679.html#顺序队的实现" target="_blank" rel="noopener">    顺序队的实现</a><br><a href="https://www.cnblogs.com/fzz9/p/8159679.html#" target="_blank" rel="noopener">     </a><br><a href="https://www.cnblogs.com/fzz9/p/8159679.html#链队的实现" target="_blank" rel="noopener">    链队的实现</a></p>
-</blockquote>
+        <h1 id="队列详解及java实现"><a href="#队列详解及java实现" class="headerlink" title="队列详解及java实现"></a>队列详解及java实现</h1><p>[TOC]</p>
 <h2 id="导读"><a href="#导读" class="headerlink" title="导读"></a>导读</h2><p>　　栈和队列是有操作限制的线性表。</p>
-<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>1、队列的概念、特点、存储结构。</p>
-<p>2、栈队列的java实现。</p>
+<p>​      1、队列的概念、特点、存储结构。</p>
+<p>​      2、栈队列的java实现。</p>
 <h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2><p>　　队列是一种在一端进行插入，而在另一端进行删除的线性表。<br>1、队列的插入端称为队尾；队列的删除端称为队头。（好比火车进隧道）<br>2、队列的插入操作称为入队（push），删除操作称为出队（pop）。</p>
 <h2 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h2><p>　　队列就像一列进入隧道的火车，隧道就是队列，火车车厢就是元素，进入隧道就是从隧道的这头（队尾）插入元素，出隧道就是从隧道的另一头（队头）删除元素。所以是“先进先出”的特点。</p>
 <h2 id="存储结构"><a href="#存储结构" class="headerlink" title="存储结构"></a>存储结构</h2><p>　　类似栈有顺序队和链式队两种。</p>
